@@ -13,4 +13,4 @@ WORKDIR ${GAME_PATH}
 
 ENTRYPOINT ["./srcds_run", "-game tf"]
 
-CMD ["+sv_lan", "1", "+map", "ctf_2fort"]
+CMD ["+sv_lan", "0", "+map", "ctf_2fort", "+sv_pure", "1"]
